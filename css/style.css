@@ -1,0 +1,96 @@
+body {
+	font: 15px/1.5 sans-serif;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+header {
+	background-color: black;
+	font-family: "Permanent Marker";
+}
+
+.container{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+h2 {
+	float: left;
+}
+
+header ul{
+	float: right;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+header li {
+	display: inline;
+	font-size: 20px;
+	padding: 15px;
+
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+section .img {
+	background-image: url(https://globaldegreeacademy.com/wp-content/uploads/2017/10/f9f162_1c1600b62adf4671a531660b754359f0-mv2-e1514914589268.jpg);
+	width: 100%;
+	min-height: 602px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+    background-color: rgba(0, 0, 0, 0.38);
+    background-blend-mode: multiply;
+}
+
+section h1{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 120px;
+	margin-bottom: 0;
+    font-family: "Permanent Marker";
+	letter-spacing: 5px;
+}
+
+#showcase p {
+	text-align: center;
+	font-size: 20px;
+	font-family: "Permanent Marker";
+	letter-spacing: 3px;
+}
+
+#jobs h3{
+	background-color: black;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 0;
+	font-size: 55px;
+	padding: 10px 0 10px 0;
+	font-family: "Permanent Marker";
+	letter-spacing: 2px;
+}
+
+.job-listing span{
+	font-size: 25px;
+}
+
+.job-listing a {
+	text-decoration: none;
+	color: black;
+}
+
+.job-listing a:hover {
+	color: #636363;
+}
